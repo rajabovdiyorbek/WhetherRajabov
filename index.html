@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1> Прогноз Погоды </h1>
+        <form class="forms" action=""><input class="inputCity" type="text" placeholder="Введите регион на латинице">
+            <button class="search">Поиск</button>
+        </form>
+       
+            
+            <div class="title__city">
+                <h1 class="cityNames">Регион</h1>
+                <h2 class="typeof">Погода</h2>
+
+                <h1 class="weatherTemp"><i class="fas fa-cloud"></i> | °</h1>
+            </div>
+            <div class="min__max">
+                <h3 class="minTemp">Низкая температура | °</h3>
+                <h3 class="maxTemp">
+                    Высокая температура | °</h3>
+                
+            </div>
+    </div>
+    <!-- Javascript -->
+    <script src="app.js"></script>
+</body>
+</html>
